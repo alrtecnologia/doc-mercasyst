@@ -155,3 +155,18 @@ Esta página contém informações sobre as diferentes versões lançadas do Pro
 | **Localização:** Supermercado Popular - Cansanção |
 | **Base:** Mercasyst |
 | **Responsável:** Andreina Oliveira |
+
+
+---
+
+### Tela de Devolução de Cliente
+
+1. **Criar Campo Checkbox para Devolução Seletiva:**
+   - Um campo de checkbox foi adicionado, permitindo ao cliente selecionar todos ou itens específicos para devolução.
+
+2. **Corrigir Erro de SQL ao Gravar Devolução:**
+   - O erro de SQL que ocorria ao tentar gravar a devolução foi resolvido.
+
+3. **Permitir Digitação na Coluna Quantidade:**
+   - Agora é possível digitar diretamente na coluna de quantidade, sem a necessidade de clicar previamente.
+
