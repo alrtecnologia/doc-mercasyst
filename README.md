@@ -5,15 +5,37 @@ Esta página contém informações sobre as diferentes versões lançadas do Pro
 
 # Versão Atual: Mercasyst 1.0 r39
 
-- **Data de Lançamento:** 12 de abril de 2024
-- **Notas de Lançamento:**
+- ### **Data de Lançamento:** 12 de abril de 2024
+- ### **Notas de Lançamento - Mercasyst 1.0 r39**
+
 1. **[Mostrar Código de Barras](#tarefa-mostrar-código-de-barras)**
+   - Implementada a exibição do código de barras na verificação de preço e no lançamento da compra.
+
 2. **[Tela de Vendas](#tarefa-tela-de-vendas)**
+   - Corrigido o problema que ocorria ao pressionar "ESC", impedindo a visualização das opções de alterar e pesquisar.
+
 3. **[Impressão de Documento](#tarefa-impressão-de-documento)**
+   - Corrigido o problema de impressão de duas vias do documento de venda em promissória, agora imprime apenas uma via.
+
 4. **[Geração de Crédito SPED Cont Sisal Gomes](#tarefa-geração-de-crédito-sped-cont-sisal-gomes)**
+   - Corrigido o problema na geração de crédito para PIS e COFINS na entrada fiscal de "Energia" no SPED Contribuições da Sisal Gomes.
+
 5. **[Devolução de Cliente](#tarefa-devolução-de-cliente)**
+   - Corrigido o erro que gerava saldo de vale compras em todas as filiais ao realizar uma devolução de cliente.
+
 6. **[Impressão de Relatório](#tarefa-impressão-de-relatório)**
+   - Corrigido o problema na impressão do relatório de compras, agora gera corretamente para períodos maiores que 5 dias e exibe mensagens de erro apropriadas.
+
 7. **[Natureza de Operação](#tarefa-natureza-de-operação)**
+   - Corrigido o problema em que a natureza marcada para gerar título "não" estava sendo gravada como devolução em vez de outros.
+
+8. **[Tela de Devolução de Cliente](#tarefa-tela-de-devolução-de-cliente)**
+   - Foram realizadas melhorias e correções na tela de devolução de cliente, incluindo a criação de um campo checkbox para devolução seletiva e a correção de erros de SQL.
+
+9. **[Cadastro de Fornecedores](#tarefa-cadastro-de-fornecedores)**
+   - Ajustado o padrão de filtro na pesquisa de fornecedores para evitar erros ao tentar pesquisar.
+
+
 
 # Versão Anterior
 
