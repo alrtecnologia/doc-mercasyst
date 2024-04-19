@@ -170,3 +170,9 @@ Esta página contém informações sobre as diferentes versões lançadas do Pro
 3. **Permitir Digitação na Coluna Quantidade:**
    - Agora é possível digitar diretamente na coluna de quantidade, sem a necessidade de clicar previamente.
 
+----
+
+### Cadastro de Fornecedores
+
+1. **Ajustar Padrão de Filtro na Pesquisa:**
+   - Na tela de pesquisa de fornecedores, foi alterado o padrão de filtro para que a opção "Exclusivo por Código" não esteja mais selecionada por padrão. Isso evita erro ao tentar pesquisar.
