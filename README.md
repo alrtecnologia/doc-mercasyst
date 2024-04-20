@@ -3,7 +3,7 @@
 
 Esta página contém informações sobre as diferentes versões lançadas do Projeto Mercasyst, incluindo notas de lançamento, alterações e links para downloads.
 
-# Versão Atual: Mercasyst 1.0 r39
+# Versão Atual: Mercasyst 1.0 r40
 
 - ### **Data de Lançamento:** 20 de abril de 2024
 - ### **Notas de Lançamento - Mercasyst 1.0 r39**
