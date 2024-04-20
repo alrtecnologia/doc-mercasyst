@@ -6,7 +6,7 @@ Esta página contém informações sobre as diferentes versões lançadas do Pro
 # Versão Atual: Mercasyst 1.0 r40
 
 - ### **Data de Lançamento:** 20 de abril de 2024
-- ### **Notas de Lançamento - Mercasyst 1.0 r39**
+- ### **Notas de Lançamento - Mercasyst 1.0 r40**
 
 1. **[Mostrar Código de Barras](#tarefa-mostrar-código-de-barras)**
    - Implementada a exibição do código de barras na verificação de preço e no lançamento da compra.
