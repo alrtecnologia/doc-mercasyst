@@ -93,15 +93,30 @@ Antes de iniciar, certifique-se de que:
 -  Você também pode baixar a lista de promoções utilizando a opção **Baixar promoções**.
     
 
-# Visualização de Promoções no PDV
+## Visualização de Promoções no PDV
 
-- Ao acessar a dashboard de promoções Scanntech no pdv ele listará todas as promoções aceitas, rejeitadas, e promoções com problemas.
+- Ao acessar a dashboard de promoções Scanntech no pdv que pode ser encontrado seguindo o segunte caminho `Acesse o menu lateral na tela inicial do Mercasyst > Ultilitario > Promoções ScannTech` a dashboard assim que abrir listará todas as promoções aceitas, rejeitadas, e promoções com problemas.
   
-  - Uma promoção pode ter problemas quando ao ser aceita, os produtos elegíveis para a promoção ainda não esteja cadastrado no sistema, a dashboard no Mercasyst informara de maneira visual nos carde, orientando quais produtos devem ser cadastrado para que o erro seja corrigido. 
+  - Uma promoção pode ter problemas quando ao ser aceita, os produtos elegíveis para a promoção ainda não esteja cadastrado no sistema, a dashboard no Mercasyst informara de maneira visual nos cardes, orientando quais produtos devem ser cadastrado para que o erro seja corrigido. 
 
 ![Imagem do WhatsApp de 2025-01-16 à(s) 09 40 31_03177d0f](https://github.com/user-attachments/assets/c7d9cd97-ab5a-4bb5-abfc-b776d7a75f65)
 
+---
 
+## Elementos da Página:
+![image](https://github.com/user-attachments/assets/f275c335-f1bd-4187-8703-84500600f9ec)
+
+### Funcionalidades contido nos cardes:
+- Ativo/Inativo/info: Indica o status da promoção.
+- "Ativo" significa que a promoção está em vigor,
+- "Inativo" que ela foi encerrada e
+- "info"  levar a mais detalhes sobre a promoção.
+
+### Botões na parte inferior da pagina:
+- Atualizar lista: Recarrega a página para mostrar os dados mais recentes.
+- Reen. vendas, Reen. fechamento: reiniciam processo relacionado a vendas ou fechamento de períodos promocionais.
+- Pesquisar: Permite pesquisar por produtos ou promoções específicas.
+- << e >>: Botões de navegação para percorrer as páginas de resultados.
 
 ---
 
