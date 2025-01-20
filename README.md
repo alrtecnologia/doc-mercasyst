@@ -92,32 +92,54 @@ Antes de iniciar, certifique-se de que:
     
 -  Você também pode baixar a lista de promoções utilizando a opção **Baixar promoções**.
     
-
+---
 ## Visualização de Promoções no PDV
 
-- Ao acessar a dashboard de promoções Scanntech no pdv que pode ser encontrado seguindo o segunte caminho `Acesse o menu lateral na tela inicial do Mercasyst > Ultilitario > Promoções ScannTech` a dashboard assim que abrir listará todas as promoções aceitas, rejeitadas, e promoções com problemas.
-  
-  - Uma promoção pode ter problemas quando ao ser aceita, os produtos elegíveis para a promoção ainda não esteja cadastrado no sistema, a dashboard no Mercasyst informara de maneira visual nos cardes, orientando quais produtos devem ser cadastrado para que o erro seja corrigido. 
-
 ![Imagem do WhatsApp de 2025-01-16 à(s) 09 40 31_03177d0f](https://github.com/user-attachments/assets/c7d9cd97-ab5a-4bb5-abfc-b776d7a75f65)
-
+- Ao acessar a dashboard de promoções Scanntech no pdv que pode ser encontrado em `Acesse o menu lateral na tela inicial do Mercasyst > Ultilitario > Promoções ScannTech` a dashboard assim que abrir listará todas as promoções aceitas, rejeitadas, e promoções com problemas.
+  
 ---
 
-## Elementos da Página:
+## Elementos contido na dashboard do Mercasyst:
 ![image](https://github.com/user-attachments/assets/f275c335-f1bd-4187-8703-84500600f9ec)
 
-### Funcionalidades contido nos cardes:
+### Cardes de promoções:
 - Ativo/Inativo/info: Indica o status da promoção.
 - "Ativo" significa que a promoção está em vigor,
 - "Inativo" que ela foi encerrada e
 - "info"  levar a mais detalhes sobre a promoção.
 
 ### Botões na parte inferior da pagina:
-- Atualizar lista: Recarrega a página para mostrar os dados mais recentes.
-- Reen. vendas, Reen. fechamento: reiniciam processo relacionado a vendas ou fechamento de períodos promocionais.
-- Pesquisar: Permite pesquisar por produtos ou promoções específicas.
-- << e >>: Botões de navegação para percorrer as páginas de resultados.
+- "Atualizar lista": Recarrega a página para mostrar os dados mais recentes.
+- "Reen. vendas", "Reen. fechamento": reiniciam processo relacionado a vendas ou fechamento de períodos promocionais.
+- "Pesquisar": Permite pesquisar por produtos ou promoções específicas.
+- "<<" e ">>": Botões de navegação para percorrer as páginas de resultados.
 
+---
+## Funcionalidade da Página "Reenvio de Vendas"
+![dash 02](https://github.com/user-attachments/assets/32305068-eee7-43b1-83eb-f0f69f3295a2)
+
+### Colunas:
+- ID_VENDA: Identificador único de cada venda.
+- Data: Data da venda ou da transação.
+- Total: Valor total da venda.
+- Obs: Campo para observações ou detalhes adicionais sobre a venda.
+### Botões:
+- Reenviar: Função principal da página. Ao clicar neste botão, o sistema deve reprocessar e reenviar os dados da venda selecionada para um sistema externo -> (ScannTech).
+- Cancelar: Cancela a operação em curso, como por exemplo, fechar a tela de reenvio de vendas.
+- Atualizar Lista: Recarrega a lista de vendas, exibindo as informações mais recentes.
+
+### Funcionalidades e Cenários de Uso
+- Corrigir Erros: Se houver algum erro em uma venda, o usuário pode selecioná-la e reenviá-la para corrigir as informações.
+- Retransmitir Vendas: Em caso de falha na transmissão inicial dos dados de uma venda para o sistema da ScannTech, o usuário pode reenviá-la manualmente.
+- Gerenciar Processos em lote: A página pode ser utilizada para gerenciar um processo em lote, onde múltiplas vendas são reenviadas de uma só vez.
+- Auditoria: A lista de vendas pode servir como um histórico das operações de reenvio, facilitando a auditoria dos processos.
+
+---
+## Possiveis erros na socronização de dados de promoções
+
+  - "Produtos elegíveis para a promoção sem cadastro no Mercasyst" - Uma promoção pode ter problemas quando ao ser aceita, os produtos elegíveis para a promoção ainda não esteja cadastrado no sistema, a dashboard no Mercasyst informara de maneira visual nos cardes, orientando quais produtos devem ser cadastrado para que o erro seja corrigido.
+  - 
 ---
 
 ## Conclusão
