@@ -1,4 +1,4 @@
-
+# Habilitação do Serviço Scanntech no PDV Mercasyst
 
 Este guia destina-se a auxiliar usuários a habilitarem o serviço da Scanntech no PDV Mercasyst, garantindo que as promoções sejam aplicadas corretamente e a comunicação com a plataforma funcione sem problemas.
 
