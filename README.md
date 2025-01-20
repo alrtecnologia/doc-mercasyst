@@ -136,6 +136,13 @@ Antes de iniciar, certifique-se de que:
 - Auditoria: A lista de vendas pode servir como um histórico das operações de reenvio, facilitando a auditoria dos processos.
 
 ---
+## Funcionalidade do Botão de "Reenvio de fechamento"
+- Ao clicar no botão de reenvio de fechamento, o sistema reprocessará todos os dados de vendas de um determinado período. Embora não seja obrigatório, o fechamento do caixa é altamente recomendado para garantir a compatibilidade dos dados. A necessidade de reenvio manual sugere que o processo automático pode ter apresentado algum problema. Por esse motivo, o fechamento do caixa é a opção mais segura. Logo a pós fazer o fechamento do caixa retorne  a dashboard e conclua o "reenvio do fechamento".
+- Envio de fechamento automatico - este serviço deve ser configurado para ser executado periodicamente, conforme as necessidades específicas do seu negócio o Mercasyst oferece campo personalzado para configuração desse serviço. Embora a frequência exata não seja rigidamente definida, é comum que esse serviço seja executado a cada 10 minutos, conforme exemplificado na documentação ScannTech.
+- "Configurações > Integrações #3"
+![image](https://github.com/user-attachments/assets/202e8175-101e-4217-8923-2863a9d5d96f)
+
+---
 ## Possiveis erros na socronização de dados de promoções
 
   - "Produtos elegíveis para a promoção sem cadastro no Mercasyst" - Uma promoção pode ter problemas quando ao ser aceita, os produtos elegíveis para a promoção ainda não esteja cadastrado no sistema, a dashboard no Mercasyst informara de maneira visual nos cardes, orientando quais produtos devem ser cadastrado para que o erro seja corrigido.
