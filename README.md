@@ -30,13 +30,13 @@ Antes de iniciar, certifique-se de que:
     - Navegue até a seção "Configurações > Integrações #3" e selecione a área "Parâmetros Scanntech".
 - **Preencha os Parâmetros de Configuração**: De acordo com os dados exigidos na tela:
     
-     - **Usuário**: Insira o e-mail do integrador fornecido pela Scanntech (ex.: `integrador_test@seu_email.com`).
+     - **Usuário**: Insira o e-mail do integrador fornecido pela Scanntech (ex.: `test@seu_email.com`).
     - **Senha**: Use a senha do integrador (ex.: `sua senha`).
-    - **URL Base**: Insira a URL base da API da Scanntech, geralmente `http://br.homo.apipdv.scanntech.com/api-minoristas/api/v2/minoristas/`.
+    - **URL Base**: Insira a URL base da API da Scanntech, geralmente `http://br.homo.apipdv.scanntech.com/`.
     - **EndPoint Vendas**: Informe o endpoint para envio de dados de vendas (ex.: `movimientos`).
     - **EndPoint Promoções**: Informe o endpoint para sincronização de promoções (ex.: `promos`).
     - **EndPoint Fechamentos**: Informe o endpoint de fechamentos (ex.: `fecha`).
-    - **ID Empresa**: Informe o ID fornecido pela Scanntech, como `74397`.
+    - **ID Empresa**: Informe o ID fornecido pela Scanntech, como `83397`.
     - **ID Local**: Informe o identificador do local (ex.: `1`).
     - **Tempo de Sincronização (min)**: Configure o intervalo de tempo para sincronização automática de dados (ex.: `30` -> que é equivalente a 30 minutos).
     - **URL 2 e URL 3**: Certifique-se de que estejam iguais à URL Base, salvo orientação contrária da Scanntech.
